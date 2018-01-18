@@ -1,5 +1,6 @@
 import layout;
 import menu;
+import messages;
 
 def menu(name,options):
 	clear();
@@ -18,7 +19,7 @@ def drawHeader(name):
 	for i in range(0,layout.LENGTH):
 		header += layout.PATTERN;
 		
-	header += " " + layout.MENU_NAME + " ";
+	header += " " + name + " ";
 	
 	for i in range(0,layout.LENGTH):
 		header += layout.PATTERN;
@@ -36,19 +37,19 @@ def drawFooter(name):
 def showOptions(options):
 	for i in range(0, len(options)):
 		print(str(i+1)+") "+options[i]["label"]);
-	print("0) " + "Exit");
+	print("0) " + messages.EXIT);
 		
 def ask(name,options):
-	opcao = input("Escolha uma opcao: ") - 1;
+	opcao = input(messages.ASK) - 1;
 	if opcao >= 0 and opcao < len(options):
 		options[opcao]["action"]();
 	elif opcao == -1:
 		return;
 	else:
-		print "Opcao invalida.";
+		print messages.INVALID;
 	pause();
 	menu(name,options);
 	
 def pause():
-	raw_input("Pressione ENTER para continuar.");
+	raw_input(messages.PAUSE);
 		
