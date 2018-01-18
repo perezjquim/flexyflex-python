@@ -3,7 +3,7 @@
 ## Flexible Python menu for general purposes
 
 Facilitates the inclusion of new options (including a menu itself) for a menu. 
-To create a new menu, you just have to create an array for the new menu <i>menu.py</i> and fill it up with its options.
+To create a new menu, you just have to create an array for the new menu in <i>menu.py</i> and fill it up with its options.
 To change the output messages and the layout general configuration, you just have to tweak the configuration files - <i>messages.py</i> and <i>layout.py</i>.
 
 ## Screenshots
