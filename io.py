@@ -6,8 +6,7 @@ def menu(name,options):
 	drawHeader(name);
 	showOptions(options);
 	drawFooter(name);
-	ask(options);
-	
+	ask(name,options);
 
 def clear():
 	for i in range(0,layout.CLEAR_SIZE):
@@ -37,8 +36,9 @@ def drawFooter(name):
 def showOptions(options):
 	for i in range(0, len(options)):
 		print(str(i+1)+") "+options[i]["label"]);
+	print("0) " + "Exit");
 		
-def ask(options):
+def ask(name,options):
 	opcao = input("Escolha uma opcao: ") - 1;
 	if opcao >= 0 and opcao < len(options):
 		options[opcao]["action"]();
@@ -47,6 +47,7 @@ def ask(options):
 	else:
 		print "Opcao invalida.";
 	pause();
+	menu(name,options);
 	
 def pause():
 	raw_input("Pressione ENTER para continuar.");
