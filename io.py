@@ -26,17 +26,17 @@ def drawHeader(name):
 	
 	print header;
 
-def drawFooter():
+def drawFooter(name):
 	footer = "";
 	
-	for i in range(0,2*layout.LENGTH+2+len(layout.MENU_NAME)):
+	for i in range(0,2*layout.LENGTH+2+len(name)):
 		footer += layout.PATTERN;
 	
 	print footer;
 	
-def showOptions():
-	for i in range(0, len(menu.OPTIONS)):
-		print(str(i+1)+") "+menu.OPTIONS[i]["label"]);
+def showOptions(options):
+	for i in range(0, len(options)):
+		print(str(i+1)+") "+options[i]["label"]);
 		
 def ask(options):
 	opcao = input("Escolha uma opcao: ") - 1;

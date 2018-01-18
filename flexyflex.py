@@ -1,7 +1,4 @@
 import io;
+import menu;
 
-io.clear();
-io.drawHeader();
-io.showOptions();
-io.drawFooter();
-io.ask();
+io.menu("BANANA",menu.BANANA);

@@ -21,7 +21,7 @@ def smalltalk():
 	raw_input();
 	print "Ok! Bye!";
 
-OPTIONS = [
+BANANA = [
 	{ "label" : "Random number generator",	"action": randgen },
 	{ "label" : "Guess-a-guess",						"action": guessaguess },
 	{ "label" : "Small talk with a dumb bot",	"action": smalltalk }
