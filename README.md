@@ -1,4 +1,4 @@
-# FLEXYFLEX
+# FLEXYFLEX - Python (based on the original <a href="https://github.com/perezjquim/flexyflex">FLEXYFLEX</a>)
 
 ## Flexible Python menu for general purposes
 
@@ -11,4 +11,4 @@ To change the output messages and the layout general configuration, you just hav
 <img src="http://imgur.com/sXeURVKl.png" />
 <img src="http://imgur.com/Y7dA4tfl.png" />
 
-## <a href="https://github.com/perezjquim/flexyflex/archive/master.zip"> DOWNLOAD </a>
+## <a href="https://github.com/perezjquim/flexyflex-python/archive/master.zip"> DOWNLOAD </a>
