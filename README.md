@@ -1,4 +1,5 @@
-# FLEXYFLEX - Python (based on the original <a href="https://github.com/perezjquim/flexyflex">FLEXYFLEX</a>)
+# FLEXYFLEX - Python
+(based on the original <a href="https://github.com/perezjquim/flexyflex">FLEXYFLEX</a>)
 
 ## Flexible Python menu for general purposes
 
