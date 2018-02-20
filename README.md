@@ -12,4 +12,4 @@ To change the output messages and the layout general configuration, you just hav
 <img src="http://imgur.com/sXeURVKl.png" />
 <img src="http://imgur.com/Y7dA4tfl.png" />
 
-## <a href="https://github.com/perezjquim/flexyflex-python/archive/master.zip"> DOWNLOAD </a>
+## <a href="https://raw.githubusercontent.com/perezjquim/flexyflex-python/master/flexyflex-install.deb"> DOWNLOAD </a> (.deb)

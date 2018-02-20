@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Name=Flexyflex 
+Exec=python /opt/flexyflex-python/flexyflex.py
+Terminal=true
+Type=Application
